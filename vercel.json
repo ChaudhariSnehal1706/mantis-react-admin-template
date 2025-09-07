@@ -1,8 +1,12 @@
 {
   "rewrites": [
     {
-      "source": "/(.*)",
-      "destination": "/"
+      "source": "/free/:path*",
+      "destination": "/free"
+    },
+    {
+      "source": "/free",
+      "destination": "/free"
     }
   ]
 }
